@@ -1,0 +1,15 @@
+sources:
+  - name: stg_dm
+    database: source_stg
+    schema: stg_sch
+    tables:
+      - name: T1
+      - name: T2
+      - name: T3
+
+  - name: macro_src
+    database: MACRO_DB
+    schema: MACRO_sc
+    tables:
+      - name: EMPLOYEE
+      - name: student

@@ -1,0 +1,12 @@
+seeds:
+  - name: Employee_details
+    config:
+      column_types:
+        id: varchar
+
+  - name: emp
+    config:
+      column_types:
+        id: varchar
+      delimiter: "|"          # ✅ seed-level config
+      header: true              # ✅ seed-level config
