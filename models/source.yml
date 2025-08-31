@@ -13,3 +13,13 @@ sources:
     tables:
       - name: EMPLOYEE
       - name: student
+      - name: snpshot_tab1
+
+  - name: snp_src
+    database: snapshot_db
+    schema: snapshot_sc
+    tables:
+      - name: EPFO
+      
+
+  
