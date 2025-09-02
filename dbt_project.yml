@@ -48,3 +48,5 @@ seeds:
       +column_types:
         "pin code": number
       +quote_columns: true
+
+
