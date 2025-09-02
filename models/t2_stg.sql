@@ -1,0 +1,1 @@
+select * from {{ source('stg_dm', 'T2') }}

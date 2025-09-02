@@ -1,0 +1,1 @@
+select current_user() as user,current_role() as role,current_warehouse() as wh,current_database() as db

@@ -1,0 +1,31 @@
+sources:
+  - name: stg_dm
+    database: source_stg
+    schema: stg_sch
+    tables:
+      - name: T1
+      - name: T2
+      - name: T3
+
+  - name: macro_src
+    database: MACRO_DB
+    schema: MACRO_sc
+    tables:
+      - name: EMPLOYEE
+      - name: student
+      - name: snpshot_tab1
+
+  - name: snp_src
+    database: snapshot_db
+    schema: snapshot_sc
+    tables:
+      - name: EPFO
+
+  - name: test_src
+    database: test1
+    schema: test_s
+    tables:
+      - name: employee
+      
+
+  
